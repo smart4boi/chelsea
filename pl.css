@@ -1,0 +1,90 @@
+.navigate{
+    height: 10vh;
+    background-color:darkgrey;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
+.navlinks{
+   height:10vh;
+   align-items: center;
+}
+
+.manrope-uniquifier{
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.navheader{
+    align-items: center;
+    height: 10vh;
+}
+
+.navlinks a{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 3px;
+    margin-left: 20px;
+     color: blue;
+    text-transform: uppercase;
+    text-align: justify;
+    margin-left: 22px;
+}
+
+.navlinks a::after{
+    content: ;
+    width: 0;
+    height: 2px;
+    background-color: aqua;
+    position: absolute;
+    left: 0;
+    
+}
+
+.navlinks a:hover::after{
+    width: 50%;
+}
+.epl{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 400;
+
+}
+
+body{
+    background-color: beige;
+}
+
+h1{
+    color: blue;
+}
+
+.jump{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 5px;
+    border: 2px solid blue;
+}
+
+.the-text{
+    text-align: center;
+    text-transform: capitalize;
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    color: yellow;
+    font-size: 50px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+
+ @media screen and (min-width:480px)  {
+    .nav{
+        display: none;
+    }
+ }

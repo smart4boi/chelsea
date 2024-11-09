@@ -1,0 +1,15 @@
+.bbcc{
+    display: flex;
+    flex-direction: row;
+   text-align: center;
+}
+.conc{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+
+.vvcc{
+    padding: 10px;
+    
+}

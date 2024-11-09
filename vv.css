@@ -1,0 +1,46 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.altt{
+    display: flex;
+    justify-content: center;
+}
+
+.happy{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    flex-direction: row;
+}
+
+.joy{
+    width: 50vh;
+    height: 55vh;
+    flex-direction: row;
+    margin-left: 25px;
+    padding: 15px;
+    border: 5px solid black;
+}
+
+header{
+    background-color: blanchedalmond;
+}
+
+.cap{
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform:capitalize;
+    color: orange;
+    text-decoration: transparent;
+}
+body{
+    background-color: blanchedalmond;
+}
